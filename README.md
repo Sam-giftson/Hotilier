@@ -6,13 +6,13 @@ A fully responsive, dark-themed luxury hotel booking website built with pure **H
 
 ## 🖥️ Live Preview
 
-> Open `hotel-booking.html` directly in any browser. No server setup needed.
+> Clone or download the repository, then open `Hotilier.html` in any browser. Make sure `style.css` and `function.js` are in the same folder — the page won't look correct without them.
 
 ---
 
 ## ✨ Features
 
-- **Single file** — entire website in one `hotel-booking.html` file
+- **Clean file separation** — HTML structure in `Hotilier.html`, styles in `style.css`, logic in `function.js`
 - **Fully responsive** — works on mobile, tablet and desktop
 - **Dark luxury theme** — deep black with gold accents
 - **Smooth animations** — scroll-triggered fade-ins, hero entrance animations
@@ -45,10 +45,12 @@ A fully responsive, dark-themed luxury hotel booking website built with pure **H
 ## 🗂️ Project Structure
 
 ```
-hotel-booking/
+Hotilier/
 │
-└── hotel-booking.html      # Complete website — HTML + CSS + JS in one file
-└── README.md               # This file
+├── Hotilier.html       # Main HTML — structure and content
+├── style.css           # All styling — layout, theme, animations, responsive
+├── function.js         # All JavaScript — booking logic, modal, scroll effects
+└── README.md           # This file
 ```
 
 ---
@@ -57,22 +59,25 @@ hotel-booking/
 
 ### Option 1 — Open directly
 ```bash
-# Just double-click hotel-booking.html
+# Just double-click Hotilier.html
 # OR right-click → Open with → Browser
+# Make sure style.css and function.js are in the same folder
 ```
 
 ### Option 2 — Using VS Code Live Server
 ```bash
-# 1. Open the folder in VS Code
+# 1. Open the project folder in VS Code
 # 2. Install the Live Server extension
-# 3. Right-click hotel-booking.html → Open with Live Server
+# 3. Right-click Hotilier.html → Open with Live Server
 ```
 
 ### Option 3 — Using Python
 ```bash
 python -m http.server 3000
-# Then open http://localhost:3000/hotel-booking.html
+# Then open http://localhost:3000/Hotilier.html
 ```
+
+> ⚠️ All three files — `Hotilier.html`, `style.css` and `function.js` — must be in the **same folder** for the site to work correctly.
 
 ---
 
@@ -140,9 +145,9 @@ Lightweight feedback system — appears at bottom of screen and auto-dismisses a
 
 ## 🛠️ Built With
 
-- HTML5
-- CSS3 (Grid, Flexbox, Custom Properties, Animations)
-- Vanilla JavaScript (ES6+)
+- HTML5 — `Hotilier.html`
+- CSS3 — `style.css` (Grid, Flexbox, Custom Properties, Animations)
+- Vanilla JavaScript — `function.js` (ES6+)
 - [Google Fonts](https://fonts.google.com/) — Cormorant Garamond + DM Sans
 
 > No npm. No build tools. No frameworks. Just open and run.
